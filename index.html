@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beyza — bilgisayar mühendisi. Teknolojiye duyduğum merak, üretme tutkum ve doğadan aldığım ilhamla tanışın.">
+  <meta name="theme-color" content="#f7f7f0">
+  <title>Beyza — Bilgisayar Mühendisi</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Ana menü">
+      <a class="logo" href="#anasayfa" aria-label="Beyza, ana sayfa">beyza<span>✳</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menüyü aç"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#yetenekler">Yetenekler</a>
+        <a href="#projeler">Projeler</a>
+        <a class="nav-contact" href="#iletisim">Bir merhaba de <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="anasayfa" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> MERHABA, BEN BEYZA</p>
+        <h1 id="hero-title">Merakla düşünür,<br><span class="serif">kodla</span> üretirim<span class="period">.</span></h1>
+        <p class="hero-description">Bilgisayar mühendisiyim. Fikirleri anlamlı dijital deneyimlere dönüştürmeyi, yeni yollar keşfetmeyi ve öğrenmeyi seviyorum.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projeler">Projelerimi keşfet <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#hakkimda">Beni biraz tanı <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-footnote"><span aria-hidden="true">⌘</span> Teknolojiden güç, doğadan ilham.</div>
+      </div>
+
+      <div class="hero-art" aria-label="Kod ve doğayı bir araya getiren illüstrasyon" role="img">
+        <div class="art-grid" aria-hidden="true"></div>
+        <div class="orbit-label" aria-hidden="true">BİR FİKİRLE BAŞLAR.</div>
+        <div class="code-window" aria-hidden="true">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>beyza.js</span><span>↗</span></div>
+          <div class="code-lines"><span class="code-comment">// küçük bir tanışma</span><br><span class="code-purple">const</span> beyza = {<br>&nbsp; meslek: <span class="code-green">"Bilgisayar Mühendisi"</span>,<br>&nbsp; ilham: [<span class="code-green">"doğa"</span>, <span class="code-green">"keşif"</span>],<br>&nbsp; yaklaşım: <span class="code-green">"merak + emek"</span><br>};<br><br><span class="code-purple">hayalEt</span>(); <span class="code-comment">// sonra üret.</span><span class="code-cursor"></span></div>
+        </div>
+        <div class="nature-card" aria-hidden="true">
+          <svg viewBox="0 0 300 185" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="185" fill="#dfeacb"/><circle cx="238" cy="43" r="22" fill="#f9bf7b"/><path d="M0 147 89 38 169 147Z" fill="#9fae8d"/><path d="m51 85 38-47 35 47-21-9-15 13-14-15Z" fill="#f3f4e4"/><path d="m85 157 91-104 104 104Z" fill="#718967"/><path d="m151 82 25-29 31 31-18-5-14 10-10-13Z" fill="#eaf0dc"/><path d="M0 150q75-44 148 2t152-13v46H0Z" fill="#afbd8c"/><path d="M0 174q82-38 162-1t138-7v19H0Z" fill="#7c9363"/><path d="m98 172 39-62 42 62Z" fill="#f1a879"/><path d="m137 110 4 62h38Z" fill="#d78058"/><path d="m127 172 10-38 13 38Z" fill="#464d39"/><g fill="#45604a"><path d="m30 95-20 38h12l-16 26h48l-17-26h12Z"/><path d="m265 105-16 29h9l-13 23h39l-14-23h10Z"/></g><path d="M30 149v23m235-23v20" stroke="#45604a" stroke-width="5"/><path d="M196 185q-34-20-39-13" stroke="#e2d5ad" stroke-width="9" fill="none"/></svg>
+          <div class="nature-caption"><span>çevrimdışı ilham.</span><span>↗</span></div>
+        </div>
+        <div class="spark-sticker" aria-hidden="true">✳</div>
+        <div class="floating-label" aria-hidden="true"><span>✧</span> düşün. kodla. keşfet.</div>
+        <span class="art-caption" aria-hidden="true">KODUN ÖTESİNDE BİR DÜNYA VAR.</span>
+      </div>
+    </section>
+
+    <div class="interest-strip" aria-label="İlgi alanlarım"><div class="container"><span>Yaratıcı düşünce</span><i aria-hidden="true">✳</i><span>Temiz kod</span><i aria-hidden="true">✳</i><span>Sürekli öğrenme</span><i aria-hidden="true">✳</i><span>Yeni rotalar</span><i aria-hidden="true">✳</i></div></div>
+
+    <section class="section container about" id="hakkimda" aria-labelledby="about-title">
+      <div class="section-intro"><p class="eyebrow">01 / HAKKIMDA</p><h2 id="about-title">Ekranın diğer<br>tarafındaki <span class="serif">ben.</span></h2><div class="little-flower" aria-hidden="true">✳</div></div>
+      <div class="about-content">
+        <p class="about-lead">Teknolojiye meraklı,<br>doğaya <span>bir adım yakın.</span></p>
+        <p>Ben Beyza, teknolojiye duyduğum merakı anlamlı çözümler üretme isteğiyle birleştiren bir bilgisayar mühendisiyim. Problem çözmeye analitik ve yaratıcı bir bakış açısıyla yaklaşır, kendimi sürekli geliştirmeye önem veririm. Kamp yapmak ve doğa yürüyüşlerine çıkmak, yeni perspektifler kazanmama ve üretkenliğimi beslememe yardımcı olur. Doğadan aldığım ilhamı, yazılım geliştirirken gösterdiğim özen ve keşfetme tutkusuyla bir araya getiririm.</p>
+        <div class="about-tags"><span><span aria-hidden="true">⌘</span> Bilgisayar mühendisi</span><span><span aria-hidden="true">△</span> Kamp tutkunu</span><span><span aria-hidden="true">↟</span> Doğa yürüyüşçüsü</span></div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="yetenekler" aria-labelledby="skills-title"><div class="section container">
+      <div class="section-heading"><div><p class="eyebrow">02 / YETENEKLER</p><h2 id="skills-title">Fikirden <span class="serif">deneyime.</span></h2></div><p>İyi bir fikri hayata geçirirken<br>teknoloji, mantık ve yaratıcılık bir arada.</p></div>
+      <!-- Teknoloji etiketlerini kendi yeteneklerinize göre düzenleyebilirsiniz. -->
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon lavender" aria-hidden="true">&lt;/&gt;</span><span class="card-number">01</span><h3>Web geliştirme</h3><p>Farklı ekranlara uyum sağlayan, anlaşılır ve erişilebilir arayüzler.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><span class="skill-icon peach" aria-hidden="true">⌘</span><span class="card-number">02</span><h3>Problem çözme</h3><p>Karmaşık problemleri küçük parçalara ayıran, çözüm odaklı bir yaklaşım.</p><div class="tech-tags"><span>Algoritmalar</span><span>Analitik düşünce</span></div></article>
+        <article class="skill-card"><span class="skill-icon sage" aria-hidden="true">✧</span><span class="card-number">03</span><h3>Geliştirme yaklaşımı</h3><p>Düzenli kod, detaylara özen ve her adımda yeni bir şey öğrenme isteği.</p><div class="tech-tags"><span>Temiz kod</span><span>Araştırma</span><span>Öğrenme</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="projeler" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / PROJELER</p><h2 id="projects-title">Bir fikir, <span class="serif">bir başlangıç.</span></h2></div><p>Merakın üretime dönüştüğü yer.<br>Aşağıdaki kartlar örnek proje konseptleridir.</p></div>
+      <div class="project-filters" role="group" aria-label="Proje kategorileri"><button class="filter-button active" type="button" data-filter="all" aria-pressed="true">Tümü <span>03</span></button><button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web</button><button class="filter-button" type="button" data-filter="tool" aria-pressed="false">Uygulama</button></div>
+      <p class="sr-only" id="filter-status" role="status"></p>
+      <div class="projects-grid">
+        <article class="project-card" data-category="web"><div class="project-preview route-preview" aria-hidden="true"><span class="preview-label">WEB DENEYİMİ</span><div class="mini-browser"><div class="mini-top"><span>↟ rota</span><span>keşfet ↗</span></div><strong>Bir sonraki<br>maceran burada.</strong><div class="mini-mountains"><i></i><i></i><i></i></div><span class="mini-pill">Rotanı keşfet ↗</span></div></div><div class="project-meta"><span>01 / WEB</span><span>ÖRNEK KONSEPT</span></div><div class="project-title-row"><h3>Rota — Doğayı keşfet</h3><button class="project-open" type="button" data-project="rota" aria-label="Rota örnek projesinin detaylarını aç">↗</button></div><p>Kamp ve yürüyüş rotalarını keşfetmek için bir arayüz fikri.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project-card" data-category="tool"><div class="project-preview focus-preview" aria-hidden="true"><span class="preview-label">KÜÇÜK ARAÇ, BÜYÜK ODAK</span><div class="focus-app"><div class="focus-top"><span>odak.</span><span>✳</span></div><span class="focus-subtitle">Sadece bu ana odaklan.</span><strong>25<span>:</span>00</strong><span class="focus-start">Bir adım at &nbsp; ▶</span><div class="focus-progress"><i></i><i></i><i></i><i></i></div></div></div><div class="project-meta"><span>02 / UYGULAMA</span><span>ÖRNEK KONSEPT</span></div><div class="project-title-row"><h3>Odak — Zamanın sana ait</h3><button class="project-open" type="button" data-project="odak" aria-label="Odak örnek projesinin detaylarını aç">↗</button></div><p>Çalışma ve mola dengesini destekleyen sade bir zamanlayıcı fikri.</p><div class="tech-tags"><span>JavaScript</span><span>CSS</span><span>LocalStorage</span></div></article>
+        <article class="project-card" data-category="web"><div class="project-preview notes-preview" aria-hidden="true"><span class="preview-label">FİKİRLERE BİRAZ YER AÇ</span><div class="notes-app"><div class="notes-top">küçük notlar<span>+</span></div><div class="sticky-note note-one">aklıma bir<br><strong>fikir geldi ✧</strong></div><div class="sticky-note note-two">bugün biraz<br><strong>keşfet. ↗</strong></div><div class="notes-bottom">Düşünceler, bir arada.</div></div></div><div class="project-meta"><span>03 / WEB</span><span>ÖRNEK KONSEPT</span></div><div class="project-title-row"><h3>Küçük Notlar — Fikri yakala</h3><button class="project-open" type="button" data-project="notlar" aria-label="Küçük Notlar örnek projesinin detaylarını aç">↗</button></div><p>Günlük fikirleri bir araya getiren renkli bir not panosu fikri.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="iletisim" aria-labelledby="contact-title"><div class="section container contact-grid">
+      <div class="contact-copy"><p class="eyebrow">04 / İLETİŞİM</p><h2 id="contact-title">Güzel fikirler<br>bir <span class="serif">merhabayla</span><br>başlar<span class="period">.</span></h2><p>Bir proje fikrin, bir sorun ya da paylaşmak istediğin bir düşüncen mi var? Tanışmak için güzel bir neden.</p><a id="contact-email" class="contact-email" hidden></a><span class="contact-spark" aria-hidden="true">✳</span></div>
+      <form class="contact-form" id="contact-form">
+        <h3>Bir mesajla başlayalım.</h3>
+        <p class="form-note" id="contact-note">Bu form bir mesaj taslağı hazırlar. İletişim adresi henüz eklenmediği için mesaj gönderilmez.</p>
+        <div class="form-row"><div class="form-field"><label for="name">Adın</label><input id="name" name="name" autocomplete="name" placeholder="Adını yaz" maxlength="100" required></div><div class="form-field"><label for="email">E-posta adresin</label><input id="email" name="email" type="email" autocomplete="email" placeholder="sen@ornek.com" maxlength="200" required></div></div>
+        <div class="form-field"><label for="message">Aklında neler var?</label><textarea id="message" name="message" rows="4" placeholder="Biraz fikrinden bahset…" maxlength="3000" required></textarea></div>
+        <button class="button button-dark form-submit" type="submit" disabled>Mesaj taslağı oluştur <span aria-hidden="true">↗</span></button>
+        <p class="form-status" id="form-status" role="status"></p>
+        <div class="draft-result" id="draft-result" hidden><label for="message-draft">Mesaj taslağın</label><textarea id="message-draft" rows="6" readonly></textarea><button class="text-link" id="copy-draft" type="button">Taslağı kopyala <span aria-hidden="true">↗</span></button></div>
+        <noscript><p>Mesaj taslağı oluşturmak için JavaScript'i etkinleştirin.</p></noscript>
+      </form>
+    </div></section>
+  </main>
+
+  <footer class="footer container"><a class="logo" href="#anasayfa">beyza<span>✳</span></a><p>© <span id="year">2026</span> Beyza. Merakla ve özenle üretildi.</p><a class="back-top" href="#anasayfa">Yukarı dön <span aria-hidden="true">↑</span></a></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><button class="dialog-close" type="button" aria-label="Proje detayını kapat">×</button><p class="eyebrow">ÖRNEK PROJE KONSEPTİ</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>Planlanan özellikler</h3><ul id="dialog-features"></ul><p class="dialog-note">Bu kart, portfolyo düzenini göstermek için hazırlanmış bir konsepttir; tamamlanmış bir projeyi temsil etmez.</p></dialog>
+</body>
+</html>
